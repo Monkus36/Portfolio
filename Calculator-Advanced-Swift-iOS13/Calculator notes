@@ -1,0 +1,11 @@
+Swift access levels
+
+1. private variables are only accessible within this block
+    
+2. fileprivate variabels are only accessible within the file
+    
+3. internal (default) variables are accessible anywhere within current app module (for example it could be used in the test file)
+    
+4. public - access is granted to other modules (such as the pod module in the Clima app)
+    
+5. open - also allows files to be subclassed and overwritten
